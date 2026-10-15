@@ -1,0 +1,137 @@
+/* Modern HOOD GYM Theme */
+body {
+  background-color: #121212;
+  color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e63946;
+}
+
+nav a {
+  color: #ccc;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #e63946;
+}
+
+.profile {
+  color: #fff;
+  font-weight: 600;
+}
+
+.hero {
+  background: url('gym-banner.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+button {
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: 600;
+}
+
+button.primary {
+  background-color: #e63946;
+  border: none;
+  color: #fff;
+}
+
+button.secondary {
+  background-color: #444;
+  border: none;
+  color: #fff;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.dashboard-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.column {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+}
+
+.column h2 {
+  color: #e63946;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin: 10px 0;
+}
+
+.full {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.progress {
+  padding: 40px 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+progress {
+  width: 60%;
+  height: 20px;
+}
